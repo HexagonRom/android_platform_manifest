@@ -29,7 +29,7 @@
            fetch="https://github.com/"
            review="http://gerrit.dirtyunicorns.com" />
 
-  <default revision="refs/tags/android-6.0.1_r52"
+  <default revision="refs/tags/android-6.0.1_r62"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
