@@ -308,7 +308,6 @@
   <project path="packages/apps/Settings" name="HexagonRom/android_packages_apps_Settings" groups="pdk-fs" remote="hexagon" />
   <project path="packages/apps/SetupWizard" name="HexagonRom/android_packages_apps_SetupWizard" remote="hexagon" />
   <project path="packages/apps/ThemeChooser" name="HexagonRom/android_packages_apps_ThemeChooser" remote="hexagon" />
-  <project path="packages/apps/HexagonUI" name="HexagonRom/android_packages_apps_HexagonUI" remote="hexagon" />
   <project path="packages/services/ThemeManagerService" name="HexagonRom/packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
   <project path="packages/providers/MediaProvider" name="HexagonRom/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
   <project path="packages/providers/ThemesProvider" name="HexagonRom/android_packages_providers_ThemesProvider" remote="hexagon" />
