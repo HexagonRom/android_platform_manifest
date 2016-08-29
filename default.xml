@@ -305,6 +305,8 @@
   <project path="packages/apps/Nfc" name="HexagonRom/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="hexagon" />
   <project path="packages/apps/OmniSwitch" name="HexagonRom/android_packages_apps_OmniSwitch" remote="hexagon" />
   <project path="packages/apps/PackageInstaller" name="HexagonRom/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="hexagon" />
+  <project path="packages/apps/HexagonUI" name="HexagonRom/android_packages_apps_HexagonUI" remote="hexagon" />
+
   <project path="packages/apps/Settings" name="HexagonRom/android_packages_apps_Settings" groups="pdk-fs" remote="hexagon" />
   <project path="packages/apps/SetupWizard" name="HexagonRom/android_packages_apps_SetupWizard" remote="hexagon" />
   <project path="packages/apps/ThemeChooser" name="HexagonRom/android_packages_apps_ThemeChooser" remote="hexagon" />
