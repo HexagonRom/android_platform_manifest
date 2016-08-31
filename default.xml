@@ -37,7 +37,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
-  <!--<project path="packages/apps/HexCenter" name="HexagonRom/HexCenter" remote="hexagon" />
+  <project path="packages/apps/HexCenter" name="HexagonRom/HexCenter" remote="hexagon" />
   <project path="packages/apps/HexagonUI" name="HexagonRom/android_packages_apps_HexagonUI" remote="hexagon" />
   <project path="system/core" name="HexagonRom/system_core" groups="pdk" remote="hexagon" />
   <project path="vendor/aicp" name="HexagonRom/vendor_aicp" remote="hexagon" />
