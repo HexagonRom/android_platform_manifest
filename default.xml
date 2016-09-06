@@ -130,8 +130,6 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" />
   <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" />
-</manifest>
-
   <include name="snippets/hal_cm_all.xml" />
 <!-- END CYANOGENMOD -->
 
