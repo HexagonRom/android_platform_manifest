@@ -27,15 +27,27 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.0.0_r6" />
 
-  <default revision="refs/heads/staging/cm-14.0"
+  <default revision="refs/heads/cm-14.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
 <!-- BEGIN HEXAGON-->
   <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
-  <project path="packages/apps/HexCenter" name="HexagonRom/HexCenter" remote="hexagon" />
   <project path="packages/apps/HexagonUI" name="HexagonRom/android_packages_apps_HexagonUI" remote="hexagon" />
+  <project path="packages/apps/Settings" name="HexagonRom/android_packages_apps_Settings" remote="hexagon" />
+  <project path="packages/apps/SoundRecorder" name="HexagonRom/android_packages_apps_SoundRecorder" remote="hexagon" />
+  <project path="packages/apps/PhoneCommon" name="HexagonRom/android_packages_apps_PhoneCommon" remote="hexagon" />
+  <project path="packages/apps/Contacts" name="HexagonRom/android_packages_apps_Contacts" remote="hexagon" />
+  <project path="packages/apps/ContactsCommon" name="HexagonRom/android_packages_apps_ContactsCommon" remote="hexagon" />
+  <project path="packages/apps/Dialer" name="HexagonRom/android_packages_apps_Dialer" remote="hexagon" />
+  <project path="packages/apps/UnifiedEmail" name="HexagonRom/android_packages_apps_UnifiedEmail" remote="hexagon" />
+  <project path="packages/apps/ExactCalculator" name="HexagonRom/android_packages_apps_ExactCalculator" remote="hexagon" />
+  <project path="packages/apps/Gallery2" name="HexagonRom/android_packages_apps_Gallery2" remote="hexagon" />
+  <project path="packages/apps/Eleven" name="HexagonRom/android_packages_apps_Eleven" remote="hexagon" />
+  <project path="packages/apps/Messaging" name="HexagonRom/android_packages_apps_Messaging" remote="hexagon" />
+  <project path="packages/apps/HexCenter" name="HexagonRom/HexCenter" remote="hexagon" />
+  <project path="packages/apps/SetupWizard" name="HexagonRom/android_packages_apps_SetupWizard" remote="hexagon" />
   <project path="system/core" name="HexagonRom/android_system_core" groups="pdk" remote="hexagon" />
   <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
 <!-- END HEXAGON -->
@@ -71,6 +83,7 @@
   <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
+  <project path="device/google/contexthub" name="device/google/contexthub" groups="device" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" remote="aosp" />
@@ -357,16 +370,16 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" remote="aosp" />
+  <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" remote="aosp" />
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" remote="aosp" />
+  <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" />
+  <project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" groups="intel" />
+  <project path="hardware/intel/common/omx-components" name="CyanogenMod/android_hardware_intel_common_omx-components" groups="intel" />
+  <project path="hardware/intel/common/utils" name="CyanogenMod/android_hardware_intel_common_utils" groups="intel" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" remote="aosp" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
+  <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
+  <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
+  <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
@@ -385,33 +398,23 @@
   <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
-  <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Messaging" name="CyanogenMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" remote="aosp" />
   <project path="packages/apps/TV" name="CyanogenMod/android_packages_apps_TV" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
-  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" remote="aosp" />
@@ -447,18 +450,20 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" remote="aosp" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" remote="aosp" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" remote="aosp" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="CyanogenMod/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" />
   <project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin" remote="aosp" />
   <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux" remote="aosp" />
   <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,tradefed" remote="aosp" />
