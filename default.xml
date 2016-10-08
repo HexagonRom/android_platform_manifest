@@ -50,6 +50,7 @@
   <project path="packages/apps/HexCenter" name="HexagonRom/HexCenter" remote="hexagon" />
   <project path="system/core" name="HexagonRom/android_system_core" groups="pdk" remote="hexagon" />
   <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
+  <project path="device/qcom/sepolicy" name="HexagonRom/android_device_qcom_sepolicy" remote="hexagon" />
 <!-- END HEXAGON -->
 
 
