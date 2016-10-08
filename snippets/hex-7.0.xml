@@ -53,7 +53,6 @@
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" />
-  <project path="packages/apps/WallpaperPicker" name="CyanogenMod/android_packages_apps_WallpaperPicker" remote="github" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" />
   <project path="packages/providers/WeatherProvider" name="CyanogenMod/android_packages_providers_WeatherProvider" remote="github" />
   <project path="packages/services/CMAudioService" name="CyanogenMod/android_packages_services_CMAudioService" remote="github" />

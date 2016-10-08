@@ -20,7 +20,8 @@
 
   <remote name="du"
            fetch="https://github.com/"
-           review="http://gerrit.dirtyunicorns.com" />
+           review="http://gerrit.dirtyunicorns.com"
+           revision="refs/heads/n" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -47,7 +48,6 @@
   <project path="packages/apps/Eleven" name="HexagonRom/android_packages_apps_Eleven" remote="hexagon" />
   <project path="packages/apps/Messaging" name="HexagonRom/android_packages_apps_Messaging" remote="hexagon" />
   <project path="packages/apps/HexCenter" name="HexagonRom/HexCenter" remote="hexagon" />
-  <project path="packages/apps/SetupWizard" name="HexagonRom/android_packages_apps_SetupWizard" remote="hexagon" />
   <project path="system/core" name="HexagonRom/android_system_core" groups="pdk" remote="hexagon" />
   <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
 <!-- END HEXAGON -->
@@ -478,8 +478,8 @@
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
