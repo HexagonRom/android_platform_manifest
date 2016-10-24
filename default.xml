@@ -47,8 +47,12 @@
   <project path="packages/apps/Gallery2" name="HexagonRom/android_packages_apps_Gallery2" remote="hexagon" />
   <project path="packages/apps/Eleven" name="HexagonRom/android_packages_apps_Eleven" remote="hexagon" />
   <project path="packages/apps/Messaging" name="HexagonRom/android_packages_apps_Messaging" remote="hexagon" />
-<project path="frameworks/base" name="HexagonRom/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="hexagon"/>
+ <project path="frameworks/base" name="HexagonRom/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="hexagon"/>
   <project path="device/qcom/sepolicy" name="HexagonRom/android_device_qcom_sepolicy" remote="hexagon" />
+  <project path="packages/apps/DUI" name="HexagonRom/android_packages_apps_DUI" remote="hexagon" />
+  <project path="external/DUtils" name="HexagonRom/android_external_DUtils" remote="hexagon" />
+
+
 
   <project path="packages/apps/HexCenter" name="HexagonRom/HexCenter" remote="hexagon" />
   <project path="system/core" name="HexagonRom/android_system_core" groups="pdk" remote="hexagon" />
