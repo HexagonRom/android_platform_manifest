@@ -7,7 +7,7 @@
 
   <remote name="hexagon"
            fetch="https://github.com/"
-           revision="hex-7.0" />
+           revision="hex-7.1" />
 
 
   <remote name="slim"
