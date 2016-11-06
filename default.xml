@@ -35,6 +35,7 @@
 
 <!-- BEGIN HEXAGON-->
   <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
+  <project path="packages/apps/HexagonRom" name="HexagonRom/android_packages_apps_HexagonRom" remote="hexagon" />
   <project path="packages/apps/HexagonUI" name="HexagonRom/android_packages_apps_HexagonUI" remote="hexagon" />
   <project path="packages/apps/Settings" name="HexagonRom/android_packages_apps_Settings" remote="hexagon" />
   <project path="packages/apps/SoundRecorder" name="HexagonRom/android_packages_apps_SoundRecorder" remote="hexagon" />
