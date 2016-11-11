@@ -59,7 +59,7 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
 ##### Initializing the Hexagon repo and downloading the manifest
 
-      $  repo init -u https://github.com/HexagonRom/android_platform_manifest -b hex-7.0
+      $  repo init -u https://github.com/HexagonRom/android_platform_manifest -b hex-7.1
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is about 13GB+]
