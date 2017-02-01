@@ -44,6 +44,16 @@
 
 <!-- BEGIN HEXAGON-->
   <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
+  <project path="packages/apps/AudioFX" name="HexagonRom/android_packages_apps_AudioFX" remote="hexagon" />
+  <project path="packages/apps/Browser" name="HexagonRom/android_packages_apps_Browser" remote="hexagon" />
+  <project path="packages/apps/CMFileManager" name="HexagonRom/android_packages_apps_CMFileManager" remote="hexagon" />
+  <project path="packages/apps/Calendar" name="HexagonRom/android_packages_apps_Calendar" remote="hexagon" />
+  <project path="packages/apps/DeskClock" name="HexagonRom/android_packages_apps_DeskClock" groups="pdk-fs" remote="hexagon" />
+  <project path="packages/apps/Email" name="HexagonRom/android_packages_apps_Email" remote="hexagon" />
+  <project path="packages/apps/Screencast" name="HexagonRom/android_packages_apps_Screencast" remote="hexagon" />
+  <project path="packages/apps/SetupWizard" name="HexagonRom/android_packages_apps_SetupWizard" remote="hexagon" />
+  <project path="packages/apps/Snap" name="HexagonRom/android_packages_apps_Snap" remote="hexagon" />
+  <project path="packages/apps/Stk" name="HexagonRom/android_packages_apps_Stk" remote="hexagon" />
   <project path="packages/apps/HexagonRom" name="HexagonRom/android_packages_apps_HexagonRom" remote="hexagon" />
   <project path="packages/apps/Settings" name="HexagonRom/android_packages_apps_Settings" remote="hexagon" />
   <project path="packages/apps/SoundRecorder" name="HexagonRom/android_packages_apps_SoundRecorder" remote="hexagon" />
@@ -123,7 +133,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
