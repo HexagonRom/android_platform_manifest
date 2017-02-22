@@ -72,6 +72,8 @@
   <project path="external/DUtils" name="HexagonRom/android_external_DUtils" remote="hexagon" />
   <project path="system/core" name="HexagonRom/android_system_core" groups="pdk" remote="hexagon" />
 
+  <project path="device/qcom/sepolicy" name="HexagonRom/android_device_qcom_sepolicy" remote="hexagon" />
+
   <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
 <!-- END HEXAGON -->
 
