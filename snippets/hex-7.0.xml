@@ -6,7 +6,6 @@
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
   <project path="packages/apps/PackageInstaller" name="AICP/packages_apps_PackageInstaller" groups="pdk-fs" remote="aicp" />
   <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="teamsubstratum" revision="n" />
   <project path="frameworks/rs" name="AICP/frameworks_rs" groups="pdk" remote="aicp" />  
   <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
 <!-- END -->
