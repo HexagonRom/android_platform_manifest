@@ -41,7 +41,7 @@
 <!-- BEGIN HEXAGON-->
   <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
   <project path="packages/apps/AudioFX" name="HexagonRom/android_packages_apps_AudioFX" remote="hexagon" />
-  <project path="packages/apps/Browser" name="HexagonRom/android_packages_apps_Browser" remote="hexagon" />
+  <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
   <project path="packages/apps/CMParts" name="HexagonRom/packages_apps_CMParts" remote="hexagon" />
   <project path="packages/apps/CMFileManager" name="HexagonRom/android_packages_apps_CMFileManager" remote="hexagon" />
   <project path="packages/apps/Calendar" name="HexagonRom/android_packages_apps_Calendar" remote="hexagon" />
