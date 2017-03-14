@@ -1,4 +1,4 @@
-HexagonROM MarshMallow Source 2016
+HexagonROM Nougat Source 2017
 ===================
 
 
@@ -75,7 +75,7 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
       
         $ ~/Hexagon/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
-     -M 50G
+     ``-M 50G``
 The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
 
 ##### To build Hexagon ROM
