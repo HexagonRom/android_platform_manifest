@@ -8,6 +8,7 @@
   <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/rs" name="AICP/frameworks_rs" groups="pdk" remote="aicp" />  
   <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
+  <project path="prebuilts/build-tools" name="AICP/prebuilts_build-tools" remote="aicp" />
 <!-- END -->
 
   <!-- LineageOS additions -->
