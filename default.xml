@@ -538,6 +538,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <include name="snippets/hex-7.0.xml" />
+  <include name="snippets/hex-7.1.xml" />
 
 </manifest>
