@@ -45,7 +45,7 @@
 
   <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
   <project path="vendor/codeaurora/telephony" name="HexagonRom/vendor_codeaurora_telephony" remote="hexagon"/>
-<!-- END HEXAGON --
+<!-- END HEXAGON -->
 
 
   <!-- LineageOS additions -->
