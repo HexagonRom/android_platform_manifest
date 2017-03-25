@@ -1,15 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- BEGIN HEXAGON-->
+  <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
+  <project path="packages/apps/AudioFX" name="HexagonRom/android_packages_apps_AudioFX" remote="hexagon" />
+  <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
+  <project path="packages/apps/CMParts" name="HexagonRom/packages_apps_CMParts" remote="hexagon" />
+  <project path="packages/apps/Camera2" name="HexagonRom/packages_apps_Camera2" remote="hexagon" />
+  <project path="packages/apps/CMFileManager" name="HexagonRom/android_packages_apps_CMFileManager" remote="hexagon" />
+  <project path="packages/apps/Calendar" name="HexagonRom/android_packages_apps_Calendar" remote="hexagon" />
+  <project path="packages/apps/DeskClock" name="HexagonRom/android_packages_apps_DeskClock" groups="pdk-fs" remote="hexagon" />
+  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" name="HexagonRom/android_packages_apps_SetupWizard" remote="hexagon" />
+  <project path="packages/apps/Stk" name="HexagonRom/android_packages_apps_Stk" remote="hexagon" />
+  <project path="packages/apps/HexagonRom" name="HexagonRom/android_packages_apps_HexagonRom" remote="hexagon" />
+  <project path="packages/apps/Settings" name="HexagonRom/android_packages_apps_Settings" remote="hexagon" />
+  <project path="packages/apps/Recorder" name="HexagonRom/android_packages_apps_Recorder" remote="hexagon" />
+  <project path="packages/apps/PhoneCommon" name="HexagonRom/android_packages_apps_PhoneCommon" remote="hexagon" />
+  <project path="packages/apps/Contacts" name="HexagonRom/android_packages_apps_Contacts" remote="hexagon" />
+  <project path="packages/apps/ContactsCommon" name="HexagonRom/android_packages_apps_ContactsCommon" remote="hexagon" />
+  <project path="packages/apps/Dialer" name="HexagonRom/android_packages_apps_Dialer" remote="hexagon" />
+  <project path="packages/apps/UnifiedEmail" name="HexagonRom/android_packages_apps_UnifiedEmail" remote="hexagon" />
+  <project path="packages/apps/ExactCalculator" name="HexagonRom/android_packages_apps_ExactCalculator" remote="hexagon" />
+  <project path="packages/apps/Gallery2" name="HexagonRom/android_packages_apps_Gallery2" remote="hexagon" />
+  <project path="packages/apps/Eleven" name="HexagonRom/android_packages_apps_Eleven" remote="hexagon" />
+  <project path="packages/apps/Messaging" name="HexagonRom/android_packages_apps_Messaging" remote="hexagon" />
+  <project path="packages/apps/HexCenter" name="HexagonRom/android_packages_apps_HexCenter" remote="hexagon" />
+  <project path="frameworks/base" name="HexagonRom/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="hexagon"/>
+  <project path="packages/apps/DUI" name="HexagonRom/android_packages_apps_DUI" remote="hexagon" />
+  <project path="external/DUtils" name="HexagonRom/android_external_DUtils" remote="hexagon" />
+  <project path="system/core" name="HexagonRom/android_system_core" groups="pdk" remote="hexagon" />
+  <project path="frameworks/av" name="HexagonRom/frameworks_av" groups="pdk" remote="hexagon" />
+  <project path="frameworks/native" name="HexagonRom/frameworks_native" groups="pdk" remote="hexagon" />
+  <project path="packages/apps/PackageInstaller" name="HexagonRom/packages_apps_PackageInstaller" groups="pdk-fs" remote="hexagon" />
+  <project path="packages/providers/MediaProvider" name="HexagonRom/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
+  <project path="frameworks/rs" name="HexagonRom/frameworks_rs" groups="pdk" remote="hexagon" />  
+  <project path="frameworks/opt/cards" name="HexagonRom/frameworks_opt_cards" remote="hexagon" />
+  <project path="prebuilts/build-tools" name="HexagonRom/prebuilts_build-tools" remote="hexagon" />
+  <project path="packages/services/Telephony" name="HexagonRom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
+  <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/sepolicy" name="HexagonRom/system_sepolicy" groups="pdk" remote="hexagon" />
 
-  <!-- Cyanogen custom -->
-  <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
-  <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
-  <project path="packages/apps/PackageInstaller" name="AICP/packages_apps_PackageInstaller" groups="pdk-fs" remote="aicp" />
-  <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="frameworks/rs" name="AICP/frameworks_rs" groups="pdk" remote="aicp" />  
-  <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
-  <project path="prebuilts/build-tools" name="AICP/prebuilts_build-tools" remote="aicp" />
-<!-- END -->
+
+  <project path="device/qcom/sepolicy" name="HexagonRom/android_device_qcom_sepolicy" remote="hexagon" />
+
+  <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
+  <project path="vendor/codeaurora/telephony" name="HexagonRom/vendor_codeaurora_telephony" remote="hexagon"/>
+<!-- END HEXAGON --
+
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
@@ -106,7 +143,6 @@
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
-  <project path="vendor/codeaurora/telephony" name="AICP/vendor_codeaurora_telephony" revision="n7.1" />
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
