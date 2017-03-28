@@ -37,7 +37,7 @@
   <project path="frameworks/opt/cards" name="HexagonRom/frameworks_opt_cards" remote="hexagon" />
   <project path="prebuilts/build-tools" name="HexagonRom/prebuilts_build-tools" remote="hexagon" />
   <project path="packages/services/Telephony" name="HexagonRom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
-  <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="HexagonRom/android_packages_services_Telecomm" remote="hexagon" />
   <project path="system/sepolicy" name="HexagonRom/system_sepolicy" groups="pdk" remote="hexagon" />
 
 
