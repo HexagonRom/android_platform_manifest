@@ -70,6 +70,7 @@
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
+  <project path="external/stlport" name="LineageOS/android_external_stlport" />
   <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/unzip" name="LineageOS/android_external_unzip" />
@@ -81,10 +82,12 @@
   <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
+  <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" />
   <!--<project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" />-->
   <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
   <!--<project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />-->
