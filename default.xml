@@ -9,18 +9,9 @@
            fetch="https://github.com/"
            revision="hex-7.1" />
 
-<remote name="slim"
-           fetch="https://github.com/"
-           review="gerrit.slimroms.net" />
-
   <remote name="omni"
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
-
-  <remote name="du"
-           fetch="https://github.com/"
-           review="http://gerrit.dirtyunicorns.com"
-           revision="refs/heads/n" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -68,9 +59,9 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
-  <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" remote="aosp" />
-  <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" />
+  <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
   <project path="external/android-clat" name="LineageOS/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-mock" name="platform/external/android-mock" groups="pdk" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -396,7 +387,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" />
-  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" remote="aosp" />
