@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- BEGIN HEXAGON-->
+  <project path="bootable/recovery" name="HexagonRom/android_bootable_recovery" remote="hexagon" />
   <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
   <project path="packages/apps/AudioFX" name="HexagonRom/android_packages_apps_AudioFX" remote="hexagon" />
   <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
