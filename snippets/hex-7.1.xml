@@ -2,6 +2,8 @@
 <manifest>
 <!-- BEGIN HEXAGON-->
   <project path="bootable/recovery" name="HexagonRom/android_bootable_recovery" remote="hexagon" />
+  <project path="device/qcom/common" name="HexagonRom/android_device_qcom_common" remote="hexagon" />
+  <project path="device/qcom/sepolicy" name="HexagonRom/android_device_qcom_sepolicy" remote="hexagon" />
   <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
   <project path="packages/apps/AudioFX" name="HexagonRom/android_packages_apps_AudioFX" remote="hexagon" />
   <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
@@ -41,8 +43,6 @@
   <project path="packages/services/Telecomm" name="HexagonRom/packages_services_Telecomm" remote="hexagon" />
   <project path="system/sepolicy" name="HexagonRom/system_sepolicy" groups="pdk" remote="hexagon" />
 
-
-  <project path="device/qcom/sepolicy" name="HexagonRom/android_device_qcom_sepolicy" remote="hexagon" />
 
   <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
   <project path="vendor/codeaurora/telephony" name="HexagonRom/vendor_codeaurora_telephony" remote="hexagon"/>
