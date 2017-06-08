@@ -2,7 +2,6 @@
 <manifest>
 <!-- BEGIN HEXAGON-->
   <project path="bootable/recovery" name="HexagonRom/android_bootable_recovery" remote="hexagon" />
-  <project path="device/qcom/common" name="HexagonRom/android_device_qcom_common" remote="hexagon" />
   <project path="device/qcom/sepolicy" name="HexagonRom/android_device_qcom_sepolicy" remote="hexagon" />
   <project path="platform_manifest" name="HexagonRom/android_platform_manifest" remote="hexagon" />
   <project path="packages/apps/AudioFX" name="HexagonRom/android_packages_apps_AudioFX" remote="hexagon" />
@@ -42,14 +41,13 @@
   <project path="packages/services/Telephony" name="HexagonRom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
   <project path="packages/services/Telecomm" name="HexagonRom/packages_services_Telecomm" remote="hexagon" />
   <project path="system/sepolicy" name="HexagonRom/system_sepolicy" groups="pdk" remote="hexagon" />
-
-
   <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
   <project path="vendor/codeaurora/telephony" name="HexagonRom/vendor_codeaurora_telephony" remote="hexagon"/>
 <!-- END HEXAGON -->
 
 
   <!-- LineageOS additions -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
