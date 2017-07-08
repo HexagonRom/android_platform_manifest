@@ -12,7 +12,6 @@
   <project path="packages/apps/AudioFX" name="HexagonRom/android_packages_apps_AudioFX" remote="hexagon" />
   <project path="packages/apps/Calendar" name="HexagonRom/android_packages_apps_Calendar" remote="hexagon" />
   <project path="packages/apps/Camera2" name="HexagonRom/packages_apps_Camera2" remote="hexagon" />
-  <project path="packages/apps/CMFileManager" name="HexagonRom/android_packages_apps_CMFileManager" remote="hexagon" />
   <project path="packages/apps/CMParts" name="HexagonRom/packages_apps_CMParts" remote="hexagon" />
   <project path="packages/apps/Contacts" name="HexagonRom/android_packages_apps_Contacts" remote="hexagon" />
   <project path="packages/apps/ContactsCommon" name="HexagonRom/android_packages_apps_ContactsCommon" remote="hexagon" />
