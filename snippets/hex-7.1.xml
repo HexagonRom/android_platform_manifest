@@ -33,6 +33,7 @@
   <project path="packages/apps/Recorder" name="HexagonRom/android_packages_apps_Recorder" remote="hexagon" />
   <project path="packages/apps/Settings" name="HexagonRom/android_packages_apps_Settings" remote="hexagon" />
   <project path="packages/apps/SetupWizard" name="HexagonRom/android_packages_apps_SetupWizard" remote="hexagon" />
+  <project path="packages/apps/Snap" name="HexagonRom/android_packages_apps_Snap" remote="hexagon" />
   <project path="packages/apps/Stk" name="HexagonRom/android_packages_apps_Stk" remote="hexagon" />
   <project path="packages/apps/UnifiedEmail" name="HexagonRom/android_packages_apps_UnifiedEmail" remote="hexagon" />
   <project path="packages/services/Telephony" name="HexagonRom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
