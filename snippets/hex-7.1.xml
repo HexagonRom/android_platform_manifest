@@ -23,9 +23,9 @@
   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="HexagonRom/android_packages_apps_ExactCalculator" remote="hexagon" />
   <project path="packages/apps/Gallery2" name="HexagonRom/android_packages_apps_Gallery2" remote="hexagon" />
-  <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
   <project path="packages/apps/HexagonRom" name="HexagonRom/android_packages_apps_HexagonRom" remote="hexagon" />
   <project path="packages/apps/HexCenter" name="HexagonRom/android_packages_apps_HexCenter" remote="hexagon" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/providers/MediaProvider" name="HexagonRom/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="hexagon" />
   <project path="packages/apps/Messaging" name="HexagonRom/android_packages_apps_Messaging" remote="hexagon" />
   <project path="packages/apps/PackageInstaller" name="HexagonRom/packages_apps_PackageInstaller" groups="pdk-fs" remote="hexagon" />
@@ -53,7 +53,6 @@
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
-  <project path="external/gello-build" name="LineageOS/android_external_gello_build" />
   <project path="external/google" name="LineageOS/android_external_google" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/koush/ion" name="LineageOS/ion" />
