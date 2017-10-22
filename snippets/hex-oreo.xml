@@ -5,6 +5,7 @@
   <project path="device/hexagon/sepolicy" name="HexagonRom/android_device_hexagon_sepolicy" remote="hexagon" />
   <project path="device/qcom/sepolicy" name="HexagonRom/android_device_qcom_sepolicy" remote="hexagon" />
   <project path="vendor/hexagon" name="HexagonRom/android_vendor_hexagon" remote="hexagon" />
+  <project path="frameworks/opt/slimrecent" name="HexagonRom/android_frameworks_opt_slimrecent" remote="hexagon" />
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
