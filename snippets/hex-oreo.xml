@@ -13,6 +13,7 @@
   <project path="packages/apps/Settings" name="HexagonRom/android_packages_apps_Settings" groups="pdk-fs" remote="hexagon" />
   <project path="system/core" name="HexagonRom/android_system_core" groups="pdk" remote="hexagon" />
   <project path="external/roboto-fonts" name="HexagonRom/external/roboto-fonts" groups="pdk" remote="hexagon" />
+  <project path="packages/apps/LineageParts" name="HexagonRom/android_packages_apps_LineageParts" remote="hexagon" />
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
@@ -54,7 +55,6 @@
   <!--<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
   <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />-->
   <!--<project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />-->
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
