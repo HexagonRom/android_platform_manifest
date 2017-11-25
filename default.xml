@@ -59,7 +59,6 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
-  <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" />
   <project path="external/android-clat" name="LineageOS/android_external_android-clat" groups="pdk" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
