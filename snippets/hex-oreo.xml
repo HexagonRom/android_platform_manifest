@@ -14,6 +14,8 @@
   <project path="system/core" name="HexagonRom/android_system_core" groups="pdk" remote="hexagon" />
   <project path="external/roboto-fonts" name="HexagonRom/external/roboto-fonts" groups="pdk" remote="hexagon" />
   <project path="packages/apps/LineageParts" name="HexagonRom/android_packages_apps_LineageParts" remote="hexagon" />
+  <project path="external/DUtils" name="HexagonRom/android_external_DUtils" remote="hexagon" />
+  <project path="packages/apps/DUI" name="HexagonRom/android_packages_apps_DUI" remote="hexagon" />
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
