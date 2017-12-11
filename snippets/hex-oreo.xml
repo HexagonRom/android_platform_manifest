@@ -16,6 +16,7 @@
   <project path="packages/apps/LineageParts" name="HexagonRom/android_packages_apps_LineageParts" remote="hexagon" />
   <project path="external/DUtils" name="HexagonRom/android_external_DUtils" remote="hexagon" />
   <project path="packages/apps/DUI" name="HexagonRom/android_packages_apps_DUI" remote="hexagon" />
+  <project path="frameworks/av" name="HexagonRom/frameworks_av" groups="pdk" remote="hexagon" />
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
