@@ -726,4 +726,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add all HexagonRom repos -->
+  <include name="snippets/hexagon.xml" />
+
 </manifest>
